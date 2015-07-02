@@ -1,0 +1,9 @@
+NRRD0001
+content: splice(splice(crop(tooth,[51,153]x[53,146]x[0,160]),inset(slice(crop(tooth,[51,153]x[53,146]x[0,160]),2,0),crop(slice(crop(tooth,[51,153]x[53,146]x[0,160]),2,0),[60,69]x[20,29]),[35,65]),2,0),/(+(inset(slice(crop(tooth,[51,153]x[53,146]x[0,160]),2,0),crop(slice(crop(tooth,[51,153]x[53,146]x[0,160]),2,0),[60,69]x[20,29]),[35,65]),slice(crop(tooth,[51,153]x[53,146]x[0,160]),2,2)),2),2,1)
+type: unsigned short
+dimension: 3
+sizes: 103 94 161
+spacings: 1 1 1
+data file: ./tooth.raw
+endian: big
+encoding: raw
